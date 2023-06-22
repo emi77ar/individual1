@@ -24,7 +24,7 @@ const reducer = (state = initialState, action) =>{
 
         case "ORDER_NAME":
             const allVideogamesCopy = [...state.allVideogames]
-            console.log(action.payload)
+            
             return{
               ...state,
               allVideogames:

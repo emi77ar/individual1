@@ -1,13 +1,15 @@
 .contenedor{
-    border: solid green 2px;
     
-    height: 100%;
+    position: relative;
+
     display:flex;
     align-items: center;
     flex-direction: column;
     justify-content: top center;
     background-image: url('C:\Users\pc\Desktop\proyectoIndividual\videogame.png');
   background-size:cover;
+  width: 95%;
+  padding: 43px;
     
 }
 .titulo{

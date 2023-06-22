@@ -1,7 +1,7 @@
-.contenedor{
+.contenedorCards{
     
     position: relative;
-    border: solid red 1px;
+    border: solid white 1px;
     color:green;
     height: 100%;
     width: auto;
@@ -10,8 +10,17 @@
     gap:20px;
     flex-wrap: wrap;
     justify-content: center;
-    top:20px;
+    top:10px;
     background-color: black;
     
 
+}
+.label{
+    color:white;
+}
+
+.paginas{
+    display: flex;
+    justify-content: center;
+    gap:20px;
 }

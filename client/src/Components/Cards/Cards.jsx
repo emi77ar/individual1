@@ -59,11 +59,11 @@ const handleCards = (event)=>{
 
     
     return(
-        <div className={style.contenedor} >
+        <div>
 
         <div className={style.paginas} >
        
-        <select onChange={handleCards}>
+        <label className={style.label} >PAGINA </label><select onChange={handleCards}>
             
             <option value="0">1</option>
             <option value="1">2</option>
@@ -77,6 +77,7 @@ const handleCards = (event)=>{
         </select>
         </div>
 
+        <div className={style.contenedorCards} >
         {allVideogames.map((game)=>{
             return(
                 <Card 
@@ -90,6 +91,8 @@ const handleCards = (event)=>{
 
             )
         })}
+        </div>
+        
        
          
         </div>

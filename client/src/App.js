@@ -10,7 +10,7 @@ import Nav from './Components/NavBar/NavBar';
 import Detail from './Components/Detail/Detail';
 import axios from 'axios';
 import { getVideogames, orderCards } from './Redux/actions';
-
+import Form from './Components/Form/Form';
 
 function App() {
 
@@ -29,6 +29,7 @@ function App() {
       <Route exact path='/' element={<Inicio/>} />
       <Route path='/videogames/' element={<Cards/>} />
       <Route path='/videogames/:id' element={<Detail/>}/>
+      <Route path='/videogames/form' element={<Form/>} />
     </Routes>
 
 

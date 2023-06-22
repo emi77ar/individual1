@@ -31,12 +31,18 @@ const Nav = ()=>{
 
     return(
         <div className={style.contenedor}>
+            <div className={style.search} >
             <input type="text" onChange={handleChange} /><button onClick={handleButon} >BUSCAR</button>
-       
+            
+            </div>
+            <Link to='/videogames/form' >
+            <button>CREA TU VIDEOJUEGO</button>
 
+            </Link>
+            
 
-    <div>
-        <select onChange={handleOrder} className={style.selector}>
+    <div className={style.selector}>
+        <select onChange={handleOrder} >
             <option value="A">Ascendente</option>
             <option value="D">Descendente</option>
         </select>

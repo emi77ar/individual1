@@ -1,12 +1,12 @@
 .App {
   text-align: center;
   position: relative;
-  border: solid blue 1px;
+  border: solid white 1px;
   width: 95%;
-  height: 90%;
+  height: 100%;
   padding: 10px;
   font-size:x-large;
-  background-color: grey;
+  background-color: black;
 
 
 
