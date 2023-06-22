@@ -1,0 +1,29 @@
+.contenedor{
+    border: solid green 2px;
+    
+    height: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: top center;
+    background-image: url('C:\Users\pc\Desktop\proyectoIndividual\videogame.png');
+  background-size:cover;
+    
+}
+.titulo{
+    border:solid white 1px;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    color: white;
+    background-color: black;
+}
+
+.boton{
+    display: flex;
+    width: 500px;
+    height: 70px;
+    justify-content:center;
+    align-items: center;
+    font-size: 50px;
+}

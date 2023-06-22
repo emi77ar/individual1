@@ -1,0 +1,28 @@
+.contenedor{
+    border: solid black 1px;
+    width: auto;
+    position: relative;
+    height: 110px;
+    background-color: black;
+    color:white;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+.paginas{
+    display: flex;
+    
+    height: 20px;
+    align-items: center;
+    position: relative;
+    font-size: small;
+    gap: 20px;
+    color:white;
+}
+.selector{
+    display: flex;
+    position:relative;
+    top:15px;
+}

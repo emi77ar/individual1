@@ -1,0 +1,34 @@
+function maxvalue(shares){
+    let maxProfit = -Infinity
+
+    for(let i = 0; i< shares.length -1: i++){
+        const buy = shares[i]
+
+        for(let j = 0; j< shares.length; j++){
+            const sell = shares[j];
+
+            const actualProfit = sell - buy;
+            if(actualProfit > maxProfit) maxProfit = actualProfit
+        }
+    }
+
+
+    /****************************************************/
+
+let maxProfit = -Infinity
+let minValue = sares[0]
+
+for(let i=1; i< shares.length; i++){
+    const sell = shares[i]
+
+    const actualProfit = sell -minValue
+    if(actualProfit > maxProfit) maxProfit = actualProfit
+    if(sell < minValue) minValue = sell
+
+}
+
+
+
+}
+
+

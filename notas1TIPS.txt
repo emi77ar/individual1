@@ -1,0 +1,22 @@
+encontrar el indice de la primera aparcicion de un string, dentro de otro.
+el primer string esta dentro del segundo?
+devolver el indice en el que esto ocurre.
+
+1:
+
+
+for(let i = 0, i<haystack.lenght; i++){
+    for(let J=0; j<needle.length; j++){
+        if(needle[j] !== haystack[i+j]) break
+        if(J === needle.length - 1) return i
+    }
+    return -1
+};
+
+slice:
+
+
+for(let i=0; i< haystack.length; i++){
+    if(aystack.slice(i, i+ needle.length) === needle)return 1
+}
+return -1;

@@ -1,0 +1,17 @@
+.contenedor{
+    
+    position: relative;
+    border: solid red 1px;
+    color:green;
+    height: 100%;
+    width: auto;
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    top:20px;
+    background-color: black;
+    
+
+}
